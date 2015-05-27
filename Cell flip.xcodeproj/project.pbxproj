@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38294F31B153B1D0030AD71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38294F21B153B1D0030AD71 /* main.m */; };
+		C38294F61B153B1D0030AD71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38294F51B153B1D0030AD71 /* AppDelegate.m */; };
+		C38294F91B153B1D0030AD71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38294F81B153B1D0030AD71 /* ViewController.m */; };
+		C38294FC1B153B1D0030AD71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38294FA1B153B1D0030AD71 /* Main.storyboard */; };
+		C38294FE1B153B1D0030AD71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38294FD1B153B1D0030AD71 /* Images.xcassets */; };
+		C38295011B153B1D0030AD71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38294FF1B153B1D0030AD71 /* LaunchScreen.xib */; };
+		C382950D1B153B1D0030AD71 /* Cel_flipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C382950C1B153B1D0030AD71 /* Cel_flipTests.m */; };
+		C38295191B153B2F0030AD71 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38295171B153B2F0030AD71 /* MainViewController.m */; };
+		C382951A1B153B2F0030AD71 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38295181B153B2F0030AD71 /* MainViewController.xib */; };
+		C382951E1B153B8A0030AD71 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C382951C1B153B8A0030AD71 /* MainTableViewCell.m */; };
+		C382951F1B153B8A0030AD71 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C382951D1B153B8A0030AD71 /* MainTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38295071B153B1D0030AD71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38294E51B153B1D0030AD71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38294EC1B153B1D0030AD71;
+			remoteInfo = "Cel flip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38294ED1B153B1D0030AD71 /* Cel flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cel flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38294F11B153B1D0030AD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38294F21B153B1D0030AD71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38294F41B153B1D0030AD71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38294F51B153B1D0030AD71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38294F71B153B1D0030AD71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C38294F81B153B1D0030AD71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38294FB1B153B1D0030AD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38294FD1B153B1D0030AD71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C38295001B153B1D0030AD71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C38295061B153B1D0030AD71 /* Cel flipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cel flipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C382950B1B153B1D0030AD71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C382950C1B153B1D0030AD71 /* Cel_flipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cel_flipTests.m; sourceTree = "<group>"; };
+		C38295161B153B2F0030AD71 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C38295171B153B2F0030AD71 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C38295181B153B2F0030AD71 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		C382951B1B153B8A0030AD71 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		C382951C1B153B8A0030AD71 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		C382951D1B153B8A0030AD71 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38294EA1B153B1D0030AD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38295031B153B1D0030AD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38294E41B153B1D0030AD71 = {
+			isa = PBXGroup;
+			children = (
+				C38294EF1B153B1D0030AD71 /* Cel flip */,
+				C38295091B153B1D0030AD71 /* Cel flipTests */,
+				C38294EE1B153B1D0030AD71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38294EE1B153B1D0030AD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38294ED1B153B1D0030AD71 /* Cel flip.app */,
+				C38295061B153B1D0030AD71 /* Cel flipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38294EF1B153B1D0030AD71 /* Cel flip */ = {
+			isa = PBXGroup;
+			children = (
+				C38294F41B153B1D0030AD71 /* AppDelegate.h */,
+				C38294F51B153B1D0030AD71 /* AppDelegate.m */,
+				C38294F71B153B1D0030AD71 /* ViewController.h */,
+				C38294F81B153B1D0030AD71 /* ViewController.m */,
+				C38294FA1B153B1D0030AD71 /* Main.storyboard */,
+				C38294FD1B153B1D0030AD71 /* Images.xcassets */,
+				C38294FF1B153B1D0030AD71 /* LaunchScreen.xib */,
+				C38294F01B153B1D0030AD71 /* Supporting Files */,
+				C38295161B153B2F0030AD71 /* MainViewController.h */,
+				C38295171B153B2F0030AD71 /* MainViewController.m */,
+				C38295181B153B2F0030AD71 /* MainViewController.xib */,
+				C382951B1B153B8A0030AD71 /* MainTableViewCell.h */,
+				C382951C1B153B8A0030AD71 /* MainTableViewCell.m */,
+				C382951D1B153B8A0030AD71 /* MainTableViewCell.xib */,
+			);
+			path = "Cel flip";
+			sourceTree = "<group>";
+		};
+		C38294F01B153B1D0030AD71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38294F11B153B1D0030AD71 /* Info.plist */,
+				C38294F21B153B1D0030AD71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38295091B153B1D0030AD71 /* Cel flipTests */ = {
+			isa = PBXGroup;
+			children = (
+				C382950C1B153B1D0030AD71 /* Cel_flipTests.m */,
+				C382950A1B153B1D0030AD71 /* Supporting Files */,
+			);
+			path = "Cel flipTests";
+			sourceTree = "<group>";
+		};
+		C382950A1B153B1D0030AD71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C382950B1B153B1D0030AD71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38294EC1B153B1D0030AD71 /* Cel flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38295101B153B1D0030AD71 /* Build configuration list for PBXNativeTarget "Cel flip" */;
+			buildPhases = (
+				C38294E91B153B1D0030AD71 /* Sources */,
+				C38294EA1B153B1D0030AD71 /* Frameworks */,
+				C38294EB1B153B1D0030AD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cel flip";
+			productName = "Cel flip";
+			productReference = C38294ED1B153B1D0030AD71 /* Cel flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38295051B153B1D0030AD71 /* Cel flipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38295131B153B1D0030AD71 /* Build configuration list for PBXNativeTarget "Cel flipTests" */;
+			buildPhases = (
+				C38295021B153B1D0030AD71 /* Sources */,
+				C38295031B153B1D0030AD71 /* Frameworks */,
+				C38295041B153B1D0030AD71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38295081B153B1D0030AD71 /* PBXTargetDependency */,
+			);
+			name = "Cel flipTests";
+			productName = "Cel flipTests";
+			productReference = C38295061B153B1D0030AD71 /* Cel flipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38294E51B153B1D0030AD71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mentor Ventures, Inc.";
+				TargetAttributes = {
+					C38294EC1B153B1D0030AD71 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C38295051B153B1D0030AD71 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C38294EC1B153B1D0030AD71;
+					};
+				};
+			};
+			buildConfigurationList = C38294E81B153B1D0030AD71 /* Build configuration list for PBXProject "Cell flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38294E41B153B1D0030AD71;
+			productRefGroup = C38294EE1B153B1D0030AD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38294EC1B153B1D0030AD71 /* Cel flip */,
+				C38295051B153B1D0030AD71 /* Cel flipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38294EB1B153B1D0030AD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38294FC1B153B1D0030AD71 /* Main.storyboard in Resources */,
+				C38295011B153B1D0030AD71 /* LaunchScreen.xib in Resources */,
+				C38294FE1B153B1D0030AD71 /* Images.xcassets in Resources */,
+				C382951A1B153B2F0030AD71 /* MainViewController.xib in Resources */,
+				C382951F1B153B8A0030AD71 /* MainTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38295041B153B1D0030AD71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38294E91B153B1D0030AD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38294F91B153B1D0030AD71 /* ViewController.m in Sources */,
+				C38294F61B153B1D0030AD71 /* AppDelegate.m in Sources */,
+				C38294F31B153B1D0030AD71 /* main.m in Sources */,
+				C38295191B153B2F0030AD71 /* MainViewController.m in Sources */,
+				C382951E1B153B8A0030AD71 /* MainTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38295021B153B1D0030AD71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C382950D1B153B1D0030AD71 /* Cel_flipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38295081B153B1D0030AD71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38294EC1B153B1D0030AD71 /* Cel flip */;
+			targetProxy = C38295071B153B1D0030AD71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38294FA1B153B1D0030AD71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38294FB1B153B1D0030AD71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38294FF1B153B1D0030AD71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38295001B153B1D0030AD71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C382950E1B153B1D0030AD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C382950F1B153B1D0030AD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38295111B153B1D0030AD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cel flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C38295121B153B1D0030AD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cel flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C38295141B153B1D0030AD71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cel flipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cel flip.app/Cel flip";
+			};
+			name = Debug;
+		};
+		C38295151B153B1D0030AD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cel flipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cel flip.app/Cel flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38294E81B153B1D0030AD71 /* Build configuration list for PBXProject "Cell flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382950E1B153B1D0030AD71 /* Debug */,
+				C382950F1B153B1D0030AD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38295101B153B1D0030AD71 /* Build configuration list for PBXNativeTarget "Cel flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38295111B153B1D0030AD71 /* Debug */,
+				C38295121B153B1D0030AD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38295131B153B1D0030AD71 /* Build configuration list for PBXNativeTarget "Cel flipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38295141B153B1D0030AD71 /* Debug */,
+				C38295151B153B1D0030AD71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38294E51B153B1D0030AD71 /* Project object */;
+}
