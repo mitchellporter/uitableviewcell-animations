@@ -16,10 +16,13 @@
 
 - (void)loadWithImage:(UIImage *)image
 {
-    self.imageView.image = image;
     self.contentView.layer.contents = (__bridge id)(image.CGImage);
     
 }
 
+- (void)prepareForReuse
+{
+    
+}
 
 @end
