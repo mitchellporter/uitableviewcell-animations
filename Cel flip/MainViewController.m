@@ -35,6 +35,7 @@
     self.tableView.showsVerticalScrollIndicator = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.pagingEnabled = YES;
+    self.tableView.backgroundColor = [UIColor blackColor];
     
     NSLog(@"frame: %@", NSStringFromCGRect(self.tableView.frame));
     
@@ -111,34 +112,34 @@
 //    [UIView commitAnimations];
     
 
-    // Animation 3
-    // Source: http://zurb.com/forrst/posts/UITableView_flipping_cells-mOs
-    [UIView beginAnimations:@"FlipCellAnimation" context:nil];
-    [UIView setAnimationDuration:0.5];
-    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:cell cache:YES];
-    
-    [cell removeFromSuperview];
-    [self.tableView addSubview:cell];
-    
-    [UIView commitAnimations];
-    
-    
-//    // Animation 4
-//    // Source: https://gist.github.com/leviathan/7801501
-//    // Setup initial state (e.g. before animation)
-//    cell.layer.shadowColor = [[UIColor blackColor] CGColor];
-//    cell.layer.shadowOffset = CGSizeMake(10, 10);
-//    cell.alpha = 0;
-//    cell.layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5);
-//    cell.layer.anchorPoint = CGPointMake(0, 0.5);
+//    // Animation 3
+//    // Source: http://zurb.com/forrst/posts/UITableView_flipping_cells-mOs
+//    [UIView beginAnimations:@"FlipCellAnimation" context:nil];
+//    [UIView setAnimationDuration:0.4];
+//    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:cell cache:YES];
 //    
-//    // Define final state (e.g. after animation) & commit animation
-//    [UIView beginAnimations:@"scaleTableViewCellAnimationID" context:NULL];
-//    [UIView setAnimationDuration:0.7];
-//    cell.layer.shadowOffset = CGSizeMake(0, 0);
-//    cell.alpha = 1;
-//    cell.layer.transform = CATransform3DIdentity;
+//    [cell removeFromSuperview];
+//    [self.tableView addSubview:cell];
+//    
 //    [UIView commitAnimations];
+    
+    
+    // Animation 4
+    // Source: https://gist.github.com/leviathan/7801501
+    // Setup initial state (e.g. before animation)
+    cell.layer.shadowColor = [[UIColor blackColor] CGColor];
+    cell.layer.shadowOffset = CGSizeMake(10, 10);
+    cell.alpha = 0;
+    cell.layer.transform = CATransform3DMakeScale(0.5, 0.5, 0.5);
+    cell.layer.anchorPoint = CGPointMake(0.5, 0.5);
+    
+    // Define final state (e.g. after animation) & commit animation
+    [UIView beginAnimations:@"scaleTableViewCellAnimationID" context:NULL];
+    [UIView setAnimationDuration:0.5];
+    cell.layer.shadowOffset = CGSizeMake(0, 0);
+    cell.alpha = 1;
+    cell.layer.transform = CATransform3DIdentity;
+    [UIView commitAnimations];
 }
 
 @end
