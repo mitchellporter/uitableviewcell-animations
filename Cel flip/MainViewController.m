@@ -66,8 +66,8 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    // Animation 1
-//    // Source: https://gist.github.com/RebornSoul/8123997
+    // Animation 1
+    // Source: https://gist.github.com/RebornSoul/8123997
 //    
 //    if (tableView.isDragging) {
 //        UIView *myView = cell.contentView;
@@ -80,7 +80,7 @@
 //            rotationAndPerspectiveTransform = CATransform3DRotate(rotationAndPerspectiveTransform, -M_PI*0.5, 1.0f, 0.0f, 0.0f);
 //        }
 //        layer.transform = rotationAndPerspectiveTransform;
-//        [UIView animateWithDuration:.9 animations:^{
+//        [UIView animateWithDuration:.7 animations:^{
 //            layer.transform = CATransform3DIdentity;
 //        }];
 //    }

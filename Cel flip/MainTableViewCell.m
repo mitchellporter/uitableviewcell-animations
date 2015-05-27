@@ -16,7 +16,8 @@
 
 - (void)loadWithImage:(UIImage *)image
 {
-    self.contentView.layer.contents = (__bridge id)(image.CGImage);
+    
+    self.contentView.layer.contents = (__bridge id)[UIImage imageNamed:@"5C"].CGImage;
     
 }
 
